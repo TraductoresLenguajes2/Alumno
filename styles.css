@@ -1,0 +1,27 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.Name{
+    color: var(--main-font-color);
+    padding-left: 50%;
+}
+
+.contact_data{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 20;
+    padding-right: 50px;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+
+.contact_data_item{
+    background-color: tomato;
+}
+
+:root{
+    --main-font-color: #af0;
+}
+    
